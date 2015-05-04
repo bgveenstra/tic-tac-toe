@@ -12,4 +12,18 @@
   border: 1px solid black;
   display: inline-block;
   margin-bottom: 4px;
+  line-height: 10em;
+  text-align: center;
+}
+
+.X {
+  background-color: #EEFFEE; 
+  background-image: url("burrito.png");
+  background-size: 100%;
+}
+
+.O {
+  background-color: #EEEEFF;
+  background-image: url("taco.png");
+  background-size: 100%;
 }

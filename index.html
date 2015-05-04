@@ -1,23 +1,24 @@
 <!DOCTYPE HTML>
 <html>
   <head>
-    <script src='ticTacToe.js'></script>
+    <script src='app.js'></script>
     <link href="style.css" rel="stylesheet">
   </head>
   <body>
-    <h1>Tic Tac Toe</h1>
+    <h1>Tic Taco</h1>
     <div id='board'>
       <!-- the `&nbsp;` in each div is a non-breakable space.
            It prevents the div from collapsing. -->
-      <div class='box'>&nbsp;</div>
-      <div class='box'>&nbsp;</div>
-      <div class='box'>&nbsp;</div>
-      <div class='box'>&nbsp;</div>
-      <div class='box'>&nbsp;</div>
-      <div class='box'>&nbsp;</div>
-      <div class='box'>&nbsp;</div>
-      <div class='box'>&nbsp;</div>
-      <div class='box'>&nbsp;</div>
+      <div id='topLeft' class='box'>&nbsp;</div>
+      <div id='topMid' class='box'>&nbsp;</div>
+      <div id='topRight' class='box'>&nbsp;</div>
+      <div id='midLeft' class='box'>&nbsp;</div>
+      <div id='midMid' class='box'>&nbsp;</div>
+      <div id='midRight' class='box'>&nbsp;</div>
+      <div id='botLeft' class='box'>&nbsp;</div>
+      <div id='botMid' class='box'>&nbsp;</div>
+      <div id='botRight' class='box'>&nbsp;</div>
     </div>
+    <button id="reset">Reset</button>
   </body>
 </html>
