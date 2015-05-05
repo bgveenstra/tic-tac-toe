@@ -1,16 +1,9 @@
 // wait for the DOM to finish loading
 window.addEventListener("load", function () {
-  	// all your code should go in here.
-  	/*var topLeft = document.querySelector("#topLeft");
-  	topLeft.addEventListener("click", function(event){
-  		console.log(topLeft);
-  		topLeft.innerHTML = "X";
-  		topLeft.style.backgroundColor = "blue";
-  	});
-*/
-	withBoardListener();
-	// Game state variables
-  	var player = "X";	// who's turn is it?
+    // all your code should go in here.
+    withBoardListener();
+    // Game state variables
+    var player = "X";	// who's turn is it?
     var movesSinceReset = 0; // how many moves since game started? (to check ties)
 
     document.querySelector("#reset").addEventListener("click", resetBoard);
